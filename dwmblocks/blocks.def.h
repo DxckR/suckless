@@ -9,14 +9,14 @@ static const Block blocks[] = {
 
         // {"\x04﨎 ", "cputemp", 1, 0},
 
-	// {"\x05﬙  ", "core", 2, 0},
-	//
+
 	// {"\x06  ", "memory2", 5, 0},
-  {"\x06  ", "$HOME/.local/bin/battery.sh", 2, 0},
 
 	{"\x07  ", "pamixer --get-volume-human", 2, 0},
 
-	{"\x08  ", "clock", 5, 0},
+	{"\x08  ", "~/.local/bin/clock", 5, 0},
+
+	{"\x05  ", "~/.local/bin/battery", 2, 0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
